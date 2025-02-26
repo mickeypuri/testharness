@@ -9,7 +9,7 @@ export const hangman = () => {
   const secretWord = WORDS[randomIndex];
   const maxGuesses = 10;
 
-  console.log(`Secret Word: ${secretWord}`);
+ // console.log(`Secret Word: ${secretWord}`);
 
   let currentWord = [...secretWord].map(letter => "_");
 
